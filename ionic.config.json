@@ -1,0 +1,7 @@
+{
+  "name": "ultravel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
