@@ -1,8 +1,9 @@
 import { IonRouterOutlet, IonSplitPane } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Route } from "react-router-dom";
-
-import Menu from "../components/Menu";
+import Menu from "../components/Menu.jsx";
+import Register from "../pages/Register";
+import Login from "../pages/Login";
 
 import { HomePage } from "../pages/HomePage";
 import { NoticiasPage } from "../pages/NoticiasPage";
@@ -15,7 +16,7 @@ const Router = () => {
         <Menu />
         <IonRouterOutlet id="main">
           <Route path="/" exact={true}>
-            <HomePage />
+          <HomePage />
           </Route>
           <Route path="/noticias" exact={true}>
             <NoticiasPage />
@@ -32,9 +33,11 @@ const Router = () => {
           <Route path="/login" exact={true}>
             <NoticiasPage />
           </Route>
-          <Route path="/signup" exact={true}>
+          <Route path="/register" exact={true}>
             <NoticiasPage />
           </Route>
+          <Route path="/register" component={Register} exact></Route>
+          <Route path="/login" component={Login} exact></Route>
         </IonRouterOutlet>
       </IonSplitPane>
     </IonReactRouter>

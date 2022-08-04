@@ -43,7 +43,7 @@ const appPages = [
   },
   {
     title: "Regístrarse",
-    url: "/signup",
+    url: "/register",
     iosIcon: peopleOutline,
     mdIcon: peopleOutline,
   },
