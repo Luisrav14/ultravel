@@ -7,7 +7,7 @@ export const Header = ({ title }) => {
         <IonButtons slot="start">
           <IonMenuButton />
         </IonButtons>
-        <IonTitle>{title}</IonTitle>
+        <IonTitle align="center">{title}</IonTitle>
       </IonToolbar>
     </IonHeader>
   );

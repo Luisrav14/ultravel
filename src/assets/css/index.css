@@ -1,0 +1,31 @@
+/* Grid */
+
+.container {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Colores */
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.primary {
+  background-color: #070928 !important;
+}
+
+.secondary {
+  background-color: #3456ff !important;
+}
+
+.light {
+  background-color: #f8f8f8 !important;
+}
+
+/* Extras */
+
+.rounded {
+  border-radius: 10px;
+}
