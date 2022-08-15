@@ -25,7 +25,7 @@ export const HomePage = () => {
                   <IonFabButton>
                     <IonIcon icon={airplane}></IonIcon>
                   </IonFabButton>
-                  Viajes
+                  Viajes1
                 </IonFab>
               </li>
               <li className="item-button">
