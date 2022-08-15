@@ -1,7 +1,7 @@
 import { IonContent, IonIcon, IonItem, IonLabel, IonList, IonListHeader, IonMenu, IonMenuToggle, IonNote } from "@ionic/react";
 
+import { calendarOutline, homeOutline, imageOutline, newspaperOutline, peopleOutline, personOutline, phonePortraitOutline } from "ionicons/icons";
 import { useLocation } from "react-router-dom";
-import { imageOutline, homeOutline, newspaperOutline, personOutline, phonePortraitOutline, peopleOutline, calendarOutline } from "ionicons/icons";
 import "../assets/css/Menu.css";
 
 const appPages = [
@@ -54,7 +54,7 @@ const Menu = () => {
 
   return (
     <IonMenu contentId="main" type="overlay">
-      <IonContent>
+      <IonContent className="header" >
         <IonList id="inbox-list">
           <IonListHeader>ULTRAVEL</IonListHeader>
           <IonNote>
