@@ -65,7 +65,7 @@ export const HomePage = () => {
             <ion-card-content>Promociones increibles te esperan a ti y a tu familia. Ven con nosotros y diviertete.</ion-card-content>
             <input className="btn-enviar" type="button" value="Ver promos" style={{marginLeft:"8.2em", marginBottom:"15px"}} />
           </ion-card>
-
+          <Footer />
         </div>
        
         </IonContent>
