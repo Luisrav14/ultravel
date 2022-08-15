@@ -2,12 +2,14 @@ import { IonRouterOutlet, IonSplitPane } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Route } from "react-router-dom";
 import Menu from "../components/Menu.jsx";
-import Register from "../pages/Register";
 import Login from "../pages/Login";
+import Register from "../pages/Register";
 
+import { EventosPage } from "../pages/EventosPage";
+import { GaleriaPage } from "../pages/GaleriaPage.jsx";
 import { HomePage } from "../pages/HomePage";
 import { NoticiasPage } from "../pages/NoticiasPage";
-import { EventosPage } from "../pages/EventosPage";
+import { ContactoPage } from "../pages/ContactoPage.jsx";
 
 const Router = () => {
   return (
@@ -22,13 +24,13 @@ const Router = () => {
             <NoticiasPage />
           </Route>
           <Route path="/galeria" exact={true}>
-            <NoticiasPage />
+            <GaleriaPage />
           </Route>
           <Route path="/eventos" exact={true}>
             <EventosPage />
           </Route>
           <Route path="/contacto" exact={true}>
-            <NoticiasPage />
+            <ContactoPage />
           </Route>
           <Route path="/login" exact={true}>
             <NoticiasPage />
