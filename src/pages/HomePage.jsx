@@ -2,8 +2,7 @@
 import { IonFab, IonFabButton, IonIcon  } from "@ionic/react";
 import { bed, airplane, bus } from "ionicons/icons";
 import { IonContent, IonPage } from "@ionic/react";
-
-
+import { Footer } from "../components/Footer";
 import "../assets/css/index.css";
 import { Header } from "../components/Header";
 import { Refresher } from "../components/Refresher";
@@ -70,7 +69,9 @@ export const HomePage = () => {
         </div>
        
         </IonContent>
+        
       </IonPage>
+      
     </>
   );
 };
