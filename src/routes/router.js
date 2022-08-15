@@ -10,7 +10,7 @@ import { GaleriaPage } from "../pages/GaleriaPage.jsx";
 import { HomePage } from "../pages/HomePage";
 import { NoticiasPage } from "../pages/NoticiasPage";
 import { ContactoPage } from "../pages/ContactoPage.jsx";
-
+import { Inicio } from "../pages/Inicio.jsx";
 const Router = () => {
   return (
     <IonReactRouter>
@@ -38,6 +38,10 @@ const Router = () => {
           <Route path="/register" exact={true}>
             <NoticiasPage />
           </Route>
+          <Route path="/inicio" exact={true}>
+            <Inicio />
+          </Route>
+          
           <Route path="/register" component={Register} exact></Route>
           <Route path="/login" component={Login} exact></Route>
         </IonRouterOutlet>

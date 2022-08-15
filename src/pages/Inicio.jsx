@@ -8,7 +8,7 @@ import "../assets/css/index.css";
 import { Header } from "../components/Header";
 import { Refresher } from "../components/Refresher";
 
-export const HomePage = () => {
+export const Inicio = () => {
   return (
     <>
       <IonPage>
