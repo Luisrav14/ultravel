@@ -1,7 +1,7 @@
 /* Font-family */
 @font-face {
-  font-family: 'Quicksand';
-  src: url('../fonts/Quicksand-VariableFont_wght.ttf');
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-VariableFont_wght.ttf");
 }
 
 /* Grid */
@@ -34,4 +34,21 @@
 
 .rounded {
   border-radius: 10px;
+}
+
+.buttons-inicio > ul {
+  text-align: center;
+  display: flex;
+}
+
+.buttons-inicio > ul > li {
+  list-style: none;
+}
+
+.item-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.item-button {
 }

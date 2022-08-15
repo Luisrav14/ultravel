@@ -17,23 +17,23 @@ export const EventosPage = () => {
             <virtual-scroll-element class="ion-content-scroll-host">
               <ion-reorder-group disabled="false">
                 <ion-item>
-                  <ion-label>Item 1</ion-label>
+                  <ion-label>Ruta de Montaña</ion-label>
                   <ion-reorder slot="end"></ion-reorder>
                 </ion-item>
                 <ion-item>
-                  <ion-label>Item 2</ion-label>
+                  <ion-label>Visita Museo</ion-label>
                   <ion-reorder slot="end"></ion-reorder>
                 </ion-item>
                 <ion-item>
-                  <ion-label>Item 2</ion-label>
+                  <ion-label>Taller equitación</ion-label>
                   <ion-reorder slot="end"></ion-reorder>
                 </ion-item>
                 <ion-item>
-                  <ion-label>Item 2</ion-label>
+                  <ion-label>Paracaidismo</ion-label>
                   <ion-reorder slot="end"></ion-reorder>
                 </ion-item>
                 <ion-item>
-                  <ion-label>Item 2</ion-label>
+                  <ion-label>Campamento</ion-label>
                   <ion-reorder slot="end"></ion-reorder>
                 </ion-item>
               </ion-reorder-group>

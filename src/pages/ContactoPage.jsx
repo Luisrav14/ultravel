@@ -1,44 +1,38 @@
-import { IonPage, IonItem, IonLabel, IonInput, IonTextarea } from "@ionic/react"
+import { IonPage, IonItem, IonLabel, IonInput } from "@ionic/react";
 
-import { Header } from "../components/Header"
-import { Footer } from "../components/Footer"
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
-import '../assets/css/Contacto.css'
+import "../assets/css/Contacto.css";
 
-import logo from '../assets/images/logo.jpg'
+import logo from "../assets/images/logo.jpg";
 
 export const ContactoPage = () => {
-    return (
-        <IonPage> 
+  return (
+    <IonPage>
+      <Header title="Galeria" />
 
-            <Header title="Galeria" />
+      <div className="container-contacto">
+        <div className="formulario">
+          <img className="logo" src={logo} alt="logo" />
+          <IonItem>
+            <IonLabel position="floating">Nombre</IonLabel>
+            <IonInput value=""></IonInput>
+          </IonItem>
+          <IonItem>
+            <IonLabel position="floating">Telefono</IonLabel>
+            <IonInput inputMode="tel" value=""></IonInput>
+          </IonItem>
+          <IonItem>
+            <IonLabel position="floating">Mensaje</IonLabel>
+            <IonInput value=""></IonInput>
+          </IonItem>
 
-            <div className="container-contacto">
+          <input className="btn-enviar" type="button" value="Enviar" />
+        </div>
+      </div>
 
-                <div className="formulario">
-                    <img className="logo" src={logo} alt="logo" />
-                    <IonItem>
-                        <IonLabel position="floating">Nombre</IonLabel>
-                        <IonInput value=''></IonInput>
-                    </IonItem>
-                    <IonItem>
-                        <IonLabel position="floating">Telefono</IonLabel>
-                        <IonInput inputMode="tel" value=''></IonInput>
-                    </IonItem>
-                    <IonItem>
-                        <IonLabel position="floating">Mensaje</IonLabel>
-                        <IonInput value=''></IonInput>
-                    </IonItem>
-
-                    <input className="btn-enviar" type="button" value="Enviar" />
-
-                </div>
-
-            </div>
-
-            <Footer />
-
-        </IonPage>
-
-    )
-}
+      <Footer />
+    </IonPage>
+  );
+};
