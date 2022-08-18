@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 
 import "../assets/css/Contacto.css";
 
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 
 export const ContactoPage = () => {
   return (

@@ -26,3 +26,7 @@
 .blur {
     filter: blur(5px);
 }
+
+.img-ultravel{
+    max-width: 360px;
+}

@@ -1,5 +1,5 @@
 import { IonButtons, IonHeader, IonImg, IonMenuButton, IonTitle, IonToolbar } from "@ionic/react";
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 import '../assets/css/Header.css';
 
 export const Header = ({ title }) => {
