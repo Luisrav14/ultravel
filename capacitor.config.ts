@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'ultravel',
+  appName: 'SnapUp',
   webDir: 'build',
   bundledWebRuntime: false
 };

@@ -7,7 +7,7 @@ export const Footer = () => (
         {/*-- Fade Footer --*/}
         <IonFooter collapse="fade">
             <IonToolbar className='header'>
-                <IonTitle className='ion-text-center'>Copyright © 2022 Ultravel</IonTitle>
+                <IonTitle className='ion-text-center'>Copyright © 2022 SanpUp</IonTitle>
             </IonToolbar>
         </IonFooter>
     </>

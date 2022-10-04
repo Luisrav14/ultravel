@@ -14,7 +14,7 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-        UltraTravel
+        SnapUp
         {' '}
       {new Date().getFullYear()}
       {'.'}
@@ -78,7 +78,7 @@ export default function SignIn() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
-              href="noticias"
+              href="productos"
             >
               Iniciar Sesión
             </Button>

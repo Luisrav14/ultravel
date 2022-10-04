@@ -1,5 +1,4 @@
-import { IonContent, IonPage, IonRow, IonCol, IonGrid } from "@ionic/react";
-import { pin, wifi, wine, warning, walk } from "ionicons/icons";
+import { IonContent, IonPage, IonRow } from "@ionic/react";
 
 import { Header } from "../components/Header";
 import { Refresher } from "../components/Refresher";
@@ -11,27 +10,33 @@ export const NoticiasPage = () => {
         <Header title="Noticias" />
         <IonContent>
           <Refresher />
-          <IonRow style={{ justifyContent: 'center'}}>
-            <div className="img-ultravel">
+          <IonRow style={{ justifyContent: 'center' }}>
+            <div className="img-SnapUp">
 
               <ion-card>
-                <img src="https://images.unsplash.com/photo-1657641623779-8963a4fdc619?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                <img src="https://samsungmx.vtexassets.com/arquivos/ids/184025-800-auto?width=800&height=auto&aspect=true" />
                 <ion-card-header>
-                  <ion-card-subtitle>Destination</ion-card-subtitle>
-                  <ion-card-title>Madison, WI</ion-card-title>
+                  <ion-card-subtitle>Samsung</ion-card-subtitle>
+                  <ion-card-title>Galaxy S22 Ultra</ion-card-title>
                 </ion-card-header>
-                <ion-card-content>Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.</ion-card-content>
+                <ion-card-content>
+                  Alamcenamiento interno de 512 Gb
+                  Color Verder
+                </ion-card-content>
               </ion-card>
             </div>
-            <div className="img-ultravel">
+            <div className="img-SnapUp">
 
               <ion-card>
-                <img src="https://images.unsplash.com/photo-1657385130763-089c931dfac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                <img src="https://www.att.com/idpassets/global/devices/phones/apple/apple-iphone-13-pro-max/Carousel/alpinegreen/AlpineGreen-1.png" />
                 <ion-card-header>
-                  <ion-card-subtitle>Destination</ion-card-subtitle>
-                  <ion-card-title>Madison, WI</ion-card-title>
+                  <ion-card-subtitle>Apple</ion-card-subtitle>
+                  <ion-card-title>Iphone 13</ion-card-title>
                 </ion-card-header>
-                <ion-card-content>Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.</ion-card-content>
+                <ion-card-content>
+                  Almacenamiento interno de 256 Gb
+                  Color verde
+                </ion-card-content>
               </ion-card>
 
             </div>

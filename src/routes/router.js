@@ -20,7 +20,7 @@ const Router = () => {
           <Route path="/" exact={true}>
           <HomePage />
           </Route>
-          <Route path="/noticias" exact={true}>
+          <Route path="/productos" exact={true}>
             <NoticiasPage />
           </Route>
           <Route path="/galeria" exact={true}>
