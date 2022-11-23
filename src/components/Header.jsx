@@ -7,7 +7,10 @@ export const Header = ({ title }) => {
         <IonButtons slot="start">
           <IonMenuButton />
         </IonButtons>
-        <IonTitle>{title}</IonTitle>
+        <IonTitle style={{ textAlign: "right" }}>
+          {/* <img src="../assets/images/logo.png" width="50%" /> */}
+          <img src="https://ciudadanoscomprometidos.com.mx/SRD/assets/img/logo.png" width="50%" />
+        </IonTitle>
       </IonToolbar>
     </IonHeader>
   );

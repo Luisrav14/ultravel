@@ -1,6 +1,7 @@
+
 const images = [
   {
-    title: "",
+    title: "logo",
     image: "",
   },
 ];

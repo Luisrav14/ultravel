@@ -1,51 +1,46 @@
-import { IonContent, IonIcon, IonItem, IonLabel, IonList, IonListHeader, IonMenu, IonMenuToggle, IonNote } from "@ionic/react";
-
 import { useLocation } from "react-router-dom";
-import { imageOutline, homeOutline, newspaperOutline, personOutline, phonePortraitOutline, peopleOutline, calendarOutline } from "ionicons/icons";
+
+import { IonContent, IonIcon, IonItem, IonLabel, IonList, IonListHeader, IonMenu, IonMenuToggle, IonNote } from "@ionic/react";
+import { fileTrayFullSharp, homeSharp, businessSharp, cardSharp, personSharp, fileTraySharp, returnDownForwardSharp, logOutOutline, hourglassOutline, carSport, businessOutline, logOutSharp } from "ionicons/icons";
+
 import "../assets/css/Menu.css";
 
 const appPages = [
   {
     title: "Inicio",
     url: "/",
-    iosIcon: homeOutline,
-    mdIcon: homeOutline,
+    iosIcon: homeSharp,
+    mdIcon: homeSharp,
   },
   {
-    title: "Noticias",
-    url: "/noticias",
-    iosIcon: newspaperOutline,
-    mdIcon: newspaperOutline,
+    title: "Mis Pagos",
+    url: "/pagos",
+    iosIcon: fileTrayFullSharp,
+    mdIcon: fileTrayFullSharp,
   },
   {
-    title: "Galería",
-    url: "/galeria",
-    iosIcon: imageOutline,
-    mdIcon: imageOutline,
+    title: "Mis Propiedades",
+    url: "/propiedades",
+    iosIcon: businessSharp,
+    mdIcon: businessSharp,
   },
   {
-    title: "Eventos",
-    url: "/eventos",
-    iosIcon: calendarOutline,
-    mdIcon: calendarOutline,
+    title: "Mis vehículos",
+    url: "/vehiculos",
+    iosIcon: carSport,
+    mdIcon: carSport,
   },
   {
-    title: "Contacto",
-    url: "/contacto",
-    iosIcon: phonePortraitOutline,
-    mdIcon: phonePortraitOutline,
+    title: "Perfil",
+    url: "/profile",
+    iosIcon: personSharp,
+    mdIcon: personSharp,
   },
   {
-    title: "Inicio de sesión",
+    title: "Cerrar Sesión",
     url: "/login",
-    iosIcon: personOutline,
-    mdIcon: personOutline,
-  },
-  {
-    title: "Regístrarse",
-    url: "/register",
-    iosIcon: peopleOutline,
-    mdIcon: peopleOutline,
+    iosIcon: logOutSharp,
+    mdIcon: logOutSharp,
   },
 ];
 
@@ -56,11 +51,12 @@ const Menu = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>ULTRAVEL</IonListHeader>
-          <IonNote>
-            {" "}
-            <hr />{" "}
-          </IonNote>
+          <IonListHeader>
+            {/* <img src="../assets/images/logo.png" width="50%" /> */}
+            <img src="https://ciudadanoscomprometidos.com.mx/SRD/assets/img/logo.png" width="50%" />
+          </IonListHeader>
+          {/* <IonNote style={{ marginTop: 10, marginLeft: 5 }}>SDR</IonNote> */}
+          <IonNote style={{ marginTop: 10, marginLeft: 5 }}></IonNote>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
